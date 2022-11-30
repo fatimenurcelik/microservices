@@ -1,0 +1,6 @@
+package com.kodlamaio.inventoryService.business.abstracts;
+
+public interface BrandService {
+	List<GetAllBrandsResponse> getAll();
+	CreateBrandResponse add(CreateBrandRequest createBrandRequest);
+}

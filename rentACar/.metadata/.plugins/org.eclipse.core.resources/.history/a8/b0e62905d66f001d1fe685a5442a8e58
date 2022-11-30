@@ -1,0 +1,28 @@
+package com.kodlamaio.inventoryService.entities;
+
+import javax.persistence.Column;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Entity
+@Table(name="models")
+public class Model {
+	@Id
+	@Column(name = "id")
+	private String id;
+
+	@Column(name = "name")
+	private String name;
+	
+	@ManyToOne
+	@JoinColumn(name="brandId")
+	private Brand brand;
+	
+	@OneToMany(mappedBy = "model")
+	List<Car> cars;
+}
+

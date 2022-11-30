@@ -1,0 +1,14 @@
+package com.kodlamaio.inventoryService.entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Table(name="models")
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Entity
+public class Model {
+
+}

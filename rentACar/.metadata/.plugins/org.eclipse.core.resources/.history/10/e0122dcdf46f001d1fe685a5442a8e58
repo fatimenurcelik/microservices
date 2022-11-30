@@ -1,0 +1,7 @@
+package com.kodlamaio.inventoryService.webApi.controllers;
+@RestController //annotation bilgilendirme
+@RequestMapping("/api/brands") //adresleme
+@AllArgsConstructor
+public class ModelController {
+
+}

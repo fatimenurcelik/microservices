@@ -1,0 +1,20 @@
+package com.kodlamaio.inventoryService.business.requests.create;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+import com.sun.istack.NotNull;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CreateBrandRequest {
+	@NotBlank
+	@NotNull
+	@Size(min=2, max=20)
+	private String name;
+}
