@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\casgem\microservices\rentACar\apigateway"/>
+			<item value="C:\casgem\microservices\rentACar\common"/>
 			<item value="C:\casgem\microservices\rentACar\discovery-server"/>
 		</list>
 		<list key="projectNameTemplate">
